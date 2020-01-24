@@ -17,11 +17,11 @@ https://docs.openshift.com/container-platform/4.3/installing/installing_gcp/inst
     [https://console.cloud.google.com/home/dashboard](https://console.cloud.google.com/home/dashboard)
 
 3. I wrote 3 shell scripts for configuring the GCP project. Download them from my github gists:
-    > `curl https://gist.githubusercontent.com/dudash/533d49d5e8c1b50e3d8f4d783cea7688/raw/abfb97fb69e364569f2be7ad142885cf3934faaf/openshift_gcp_enable_services.sh > openshift_gcp_enable_services.sh`
+    > `curl https://raw.githubusercontent.com/dudash/openshift-simplified-gcp-install/master/openshift_gcp_enable_services.sh > openshift_gcp_enable_services.sh`
 
-    > `curl https://gist.githubusercontent.com/dudash/58b3d9c67e2fe788a2b9d910f64e0ba3/raw/98e16dcf3e0989162e6331807aaa5b5333b8a77d/openshift_gcp_setup_iam.sh > openshift_gcp_setup_iam.sh`
+    > `curl https://raw.githubusercontent.com/dudash/openshift-simplified-gcp-install/master/openshift_gcp_setup_iam.sh > openshift_gcp_setup_iam.sh`
 
-    >`curl https://gist.githubusercontent.com/dudash/db5178b086cd5c977d14e801591ab047/raw/d8d77a12d496e3b41207efec727eb9542b4acc6d/openshift_gcp_setup_dns.sh > openshift_gcp_setup_dns.sh`
+    >`curl https://raw.githubusercontent.com/dudash/openshift-simplified-gcp-install/master/openshift_gcp_setup_dns.sh > openshift_gcp_setup_dns.sh`
 
     >`chmod a+x openshift_gcp*`
 
